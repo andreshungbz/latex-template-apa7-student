@@ -1,0 +1,46 @@
+\documentclass[stu,12pt,floatsintext]{apa7}
+\input{packages}
+
+% METADATA / COVER PAGE
+% ----------------------------------------
+\title{Title}
+\shorttitle{Short Title}
+\author{Author}
+\authorsaffiliations{Author Affiliations}
+\course{Course}
+\professor{Professor}
+\duedate{Date}
+
+% ABSTRACT
+% ----------------------------------------
+% \abstract{\lipsum[1]}
+
+% BEGIN DOCUMENT
+% ----------------------------------------
+\begin{document}
+\maketitle
+
+% SECTION HEADING
+\section{Section}
+\subsection{Subsection}
+\lipsum[2-3]
+
+% APPENDIX
+% ----------------------------------------
+\begin{appendix}
+  \section{\LaTeX{} Snippets}
+  \input{snippets/citation-reference}
+  \input{snippets/figure}
+  \input{snippets/formatting}
+  \input{snippets/mathematics}
+  \input{snippets/quote}
+  \input{snippets/table}
+\end{appendix}
+
+% REFERENCES
+% ----------------------------------------
+\printbibliography{}
+
+% END DOCUMENT
+% ----------------------------------------
+\end{document}
